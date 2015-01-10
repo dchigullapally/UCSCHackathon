@@ -1,3 +1,4 @@
 
+This link has the dropdown info:
 http://code.stephenmorley.org/javascript/touch-friendly-drop-down-menus/
-   "monk": "*"
+
