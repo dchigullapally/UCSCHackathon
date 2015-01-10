@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head> 
+	<link rel="dropdown" href="Dropdown.css">
+	<script type="text/javascript" src="Dropdown.src.js"> 
+		runOnLoad(Dropdown.initialise);
+		Dropdown.applyTo('menu1');
+	</script>
+</head>
 
+<body>
 <h1>Bus Tracker</h1>
 
-<script src="Dropdown.src.js"> 
-	runOnLoad(Dropdown.initialise);
-</script>
+<div id='menu1'>
+
+</div>
 
 
 <button type="button"
